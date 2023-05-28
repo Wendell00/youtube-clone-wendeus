@@ -65,28 +65,28 @@ export const AsideBar = () => {
               <p className='text-white text-[0.95rem]'>Mostrar mais</p> </div>
         </div>
         <div className='flex flex-col h-auto w-full p-2 border-b border-[#3F3F3F]'>
-        <div className='flex items-center w-full ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
+            <div className='flex items-center w-[90%] ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
                <p className='text-white'>Inscrições</p> </div>
-            <div className='flex items-center w-full ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
+            <div className='flex items-center w-[90%] ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
               <img src="./lofi-girl.jpg" className='w-[25px] h-[25px] mr-6 rounded-full' />
                <p className='text-white text-sm mr-[2.8rem]'>Lofi Girl</p> 
                <img src="./live.png" className='w-[30px] h-[25px]' /></div>
-            <div className='flex items-center w-full ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
+            <div className='flex items-center w-[90%] ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
               <img src="./sidoka.jpg" className='w-[25px] h-[25px] mr-6 rounded-full' />
-               <p className='text-white text-sm mr-[3.32rem]'>Sidoka</p> 
+               <p className='text-white text-sm mr-[3.2rem]'>Sidoka</p> 
                <img src="./blue-circle.png" className='w-[30px] h-[25px]'/>
                </div>
-            <div className='flex items-center w-full ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
+            <div className='flex items-center w-[90%] ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
               <img src="./gabsx.jpg" className='w-[25px] h-[25px] mr-6 rounded-full' /> 
-              <p className='text-white text-sm mr-[3.32rem]'>GabSX</p> 
+              <p className='text-white text-sm mr-[3.05rem]'>GabSX</p> 
                <img src="./blue-circle.png" className='w-[30px] h-[25px]'/></div>
-            <div className='flex items-center w-full ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
+            <div className='flex items-center w-[90%] ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
               <img src="./gmkrikor.jpg" className='w-[25px] h-[25px] mr-6 rounded-full' /> 
               <p className='text-white text-sm'>GM Krikor</p> </div>
-            <div className='flex items-center w-full ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
+            <div className='flex items-center w-[90%] ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
               <img src="./sonny.jpg" className='w-[25px] h-[25px] mr-6 rounded-full' /> 
               <p className='text-white text-sm'>Sonny Sangha</p> </div>
-              <div className='flex items-center w-full ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
+            <div className='flex items-center w-[90%] ml-[0.5rem] mb-2 rounded-lg h-[38px] pl-2 hover:bg-[#272727] cursor-pointer'>
               <img src="./gaules.jpg" className='w-[25px] h-[25px] mr-6 rounded-full' /> 
               <p className='text-white text-sm'>Gaules</p> </div>
         </div>

@@ -35,40 +35,50 @@ export const MainYT = () => {
               </ul>
           </div>
           <div className='w-100 grid grid-cols-4 pt-8'>
-              <div className='relative cursor-pointer'><img src="./thumb-1.jpg" className='w-[251px] h-[141px] rounded-lg' />
-              <div className='text-[#aaa]'>
-                <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Eu Olho Para Você (Prod. Plague)</h2>
-                <p className='text-xs mt-2'>349 visualizações há 2 anos</p>
-                <p className='absolute w-[40px] h-[20px] bg-black rounded-md right-[30px] top-[115px] text-sm font-medium text-[#eee] text-center'>2:23</p>
-              </div>
-              </div>
-              <div className='relative cursor-pointer'><img src="./thumb-2.jpg" className='w-[251px] h-[141px] rounded-lg' />
+              <a href="https://www.youtube.com/watch?v=BpnZXMe7KNk">
+                <div className='relative cursor-pointer'><img src="./thumb-1.jpg" className='w-[251px] h-[141px] rounded-lg' />
                 <div className='text-[#aaa]'>
-                  <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Voce é um DEUS (Prod. By Fakeess)</h2>
-                  <p className='text-xs mt-2'>303 visualizações há 2 anos</p>
-                  <p className='absolute w-[40px] h-[20px] bg-black rounded-md right-[30px] top-[115px] text-sm font-medium text-[#eee] text-center'>2:23</p>
+                  <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Eu Olho Para Você (Prod. Plague)</h2>
+                  <p className='text-xs mt-2'>349 visualizações há 2 anos</p>
+                  <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>
+                  </div>
                 </div>
-              </div>
-              <div className='relative cursor-pointer'><img src="./thumb-3.jpg" className='w-[251px] h-[141px] rounded-lg' />
-                <div className='text-[#aaa]'>
-                  <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Frases de Amor</h2>
-                  <p className='text-xs mt-2'>83 visualizações há 2 anos</p>
-                  <p className='absolute w-[40px] h-[20px] bg-black rounded-md right-[30px] top-[115px] text-sm font-medium text-[#eee] text-center'>2:23</p>                </div>
-              </div>
-              <div className='relative cursor-pointer'><img src="./thumb-4.jpg" className='w-[251px] h-[141px] rounded-lg' />
-                <div className='text-[#aaa]'>
-                  <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Menina (Prod.khail)</h2>
-                  <p className='text-xs mt-2'>161 visualizações há 2 anos</p>
-                  <p className='absolute w-[40px] h-[20px] bg-black rounded-md right-[30px] top-[115px] text-sm font-medium text-[#eee] text-center'>2:23</p>
+              </a>
+              <a href="https://www.youtube.com/watch?v=vM1W-S4EFS8">
+                <div className='relative cursor-pointer'><img src="./thumb-2.jpg" className='w-[251px] h-[141px] rounded-lg' />
+                  <div className='text-[#aaa]'>
+                    <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Voce é um DEUS (Prod. By Fakeess)</h2>
+                    <p className='text-xs mt-2'>303 visualizações há 2 anos</p>
+                    <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>
+                  </div>
                 </div>
-              </div>
-              <div className='mt-8 relative cursor-pointer'><img src="./thumb-5.jpg" className='w-[251px] h-[141px] rounded-lg' />
-                <div className='text-[#aaa]'>
-                  <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Sad Boy Love Song - (Rap nº 01)</h2>
-                  <p className='text-xs mt-2'>117 visualizações há 2 anos</p>
-                  <p className='absolute w-[40px] h-[20px] bg-black rounded-md right-[30px] top-[115px] text-sm font-medium text-[#eee] text-center'>2:23</p>
+              </a>
+              <a href="https://www.youtube.com/watch?v=cbcwoay38yU">
+                <div className='relative cursor-pointer'><img src="./thumb-3.jpg" className='w-[251px] h-[141px] rounded-lg' />
+                  <div className='text-[#aaa]'>
+                    <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Frases de Amor</h2>
+                    <p className='text-xs mt-2'>83 visualizações há 2 anos</p>
+                    <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>                </div>
                 </div>
-              </div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=DVc7yWwR9Nw">
+                <div className='relative cursor-pointer'><img src="./thumb-4.jpg" className='w-[251px] h-[141px] rounded-lg' />
+                  <div className='text-[#aaa]'>
+                    <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Menina (Prod.khail)</h2>
+                    <p className='text-xs mt-2'>161 visualizações há 2 anos</p>
+                    <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=ZszkmyG3nFE">
+                <div className='mt-8 relative cursor-pointer'><img src="./thumb-5.jpg" className='w-[251px] h-[141px] rounded-lg' />
+                  <div className='text-[#aaa]'>
+                    <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Sad Boy Love Song - (Rap nº 01)</h2>
+                    <p className='text-xs mt-2'>117 visualizações há 2 anos</p>
+                    <p className='absolute w-[35px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>
+                  </div>
+                </div>
+              </a>
           </div>
 
         </div>
