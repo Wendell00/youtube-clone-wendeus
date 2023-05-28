@@ -75,17 +75,19 @@ export const Navbar = () => {
                     className="w-[120px] min-[910px]:w-[320px] min-[1080px]:w-[540px] h-[38px] 
                     bg-transparent rounded-l-2xl pl-4 pb-1 text-[#888884] placeholder:text-[#888884] focus:outline-0 active:border-[0px]"
                 />
-                )}
-                <button className="w-[64px] h-[38px] bg-[#212121] rounded-r-2xl flex justify-center items-center">
-                    <img src="./lupa.png" className="w-[26px] h-[26px] ml-2" />
+              )}
+                <button className="w-[64px] h-[38px] bg-[#212121] rounded-full min-[560px]:rounded-l-2xl flex justify-center items-center">
+                    <img src="./lupa.png" className="w-[26px] h-[26px] min-[560px]:ml-2" />
                 </button>
             </div>
                  <button className="rounded-full w-[40px] h-[38px] bg-[#181818] ml-4 flex justify-center items-center">
                     <img src="microfone.png" className="w-[26px] h-[26px]"/>
                 </button>
+                {larguraPagina >= 560 && (
                  <img src="./keyboard.png" className="absolute w-[23px] h-[23px] right-[135px] cursor-pointer"/>
+                 )}
           </div>
-          <div className="w-[auto] min-[690px]:w-[225px] flex justify-center items-center">
+          <div className="w-[auto] min-[690px]:w-[225px] flex justify-center items-center mr-2 min-[690px]:mr-0">
                 <img src="./video.png" className="w-[28px] h-[28px] mr-6 cursor-pointer"/>
                 <img src="./notify.png" className="w-[28px] h-[28px] mr-6 cursor-pointer"/>
                 <img src="./profile-icon.jpg" className="w-[30px] h-[30px] rounded-full cursor-pointer"/>
