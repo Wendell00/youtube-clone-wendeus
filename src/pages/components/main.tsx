@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
+
 export const MainYT = () => {
   return (
     <>
-        <div className='main mt-[56px] text-black bg-[#0F0F0F] pl-8 pt-1 h-screen min-[1330px]:ml-[250px]'>
+        <div className='main mt-[56px] text-black bg-[#0F0F0F] pl-8 pt-1 h-screen min-[1330px]:ml-[250px] min-[1730px]:mx-auto min-[1730px]:w-[1284px]'>
            <div className="w-100 h-[150px] flex justify-between">
               <div className='h-[150px] flex'>
                 <div className='w-[150px] h-full flex justify-center items-center'>
@@ -36,46 +37,57 @@ export const MainYT = () => {
           </div>
           <div className='w-100 grid grid-cols-4 pt-8'>
               <a href="https://www.youtube.com/watch?v=BpnZXMe7KNk">
-                <div className='relative cursor-pointer'><img src="./thumb-1.jpg" className='w-[251px] h-[141px] rounded-lg' />
-                <div className='text-[#aaa]'>
-                  <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Eu Olho Para Você (Prod. Plague)</h2>
-                  <p className='text-xs mt-2'>349 visualizações há 2 anos</p>
-                  <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>
+                <div className='relative cursor-pointer'>
+                  <div className="thumb w-[251px] h-[141px] rounded-lg relative bg-[url('/thumb-1.jpg')] bg-center bg-cover">
+                      <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[5px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>3:24</p>
+                  </div>
+                  <div className='text-[#aaa]'>
+                    <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Eu Olho Para Você (Prod. Plague)</h2>
+                    <p className='text-xs mt-2'>349 visualizações há 2 anos</p>
                   </div>
                 </div>
               </a>
               <a href="https://www.youtube.com/watch?v=vM1W-S4EFS8">
-                <div className='relative cursor-pointer'><img src="./thumb-2.jpg" className='w-[251px] h-[141px] rounded-lg' />
+                <div className='relative cursor-pointer'>
+                  <div className="thumb w-[251px] h-[141px] rounded-lg relative bg-[url('/thumb-2.jpg')] bg-center bg-cover">
+                    <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[5px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:44</p>
+                  </div>
                   <div className='text-[#aaa]'>
                     <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Voce é um DEUS (Prod. By Fakeess)</h2>
                     <p className='text-xs mt-2'>303 visualizações há 2 anos</p>
-                    <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>
                   </div>
                 </div>
               </a>
               <a href="https://www.youtube.com/watch?v=cbcwoay38yU">
-                <div className='relative cursor-pointer'><img src="./thumb-3.jpg" className='w-[251px] h-[141px] rounded-lg' />
+                <div className='relative cursor-pointer'>
+                  <div className="thumb w-[251px] h-[141px] rounded-lg relative bg-[url('/thumb-3.jpg')] bg-center bg-cover">
+                      <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[5px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:17</p>
+                  </div>
                   <div className='text-[#aaa]'>
                     <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Frases de Amor</h2>
                     <p className='text-xs mt-2'>83 visualizações há 2 anos</p>
-                    <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>                </div>
+                  </div>
                 </div>
               </a>
               <a href="https://www.youtube.com/watch?v=DVc7yWwR9Nw">
-                <div className='relative cursor-pointer'><img src="./thumb-4.jpg" className='w-[251px] h-[141px] rounded-lg' />
+                <div className='relative cursor-pointer'>
+                  <div className="thumb w-[251px] h-[141px] rounded-lg relative bg-[url('/thumb-4.jpg')] bg-center bg-cover">
+                      <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[5px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>3:50</p>
+                  </div>
                   <div className='text-[#aaa]'>
                     <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Menina (Prod.khail)</h2>
                     <p className='text-xs mt-2'>161 visualizações há 2 anos</p>
-                    <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>
                   </div>
                 </div>
               </a>
               <a href="https://www.youtube.com/watch?v=ZszkmyG3nFE">
-                <div className='mt-8 relative cursor-pointer'><img src="./thumb-5.jpg" className='w-[251px] h-[141px] rounded-lg' />
+                <div className='mt-8 relative cursor-pointer'>
+                  <div className="thumb w-[251px] h-[141px] rounded-lg relative bg-[url('/thumb-5.jpg')] bg-center bg-cover">
+                      <p className='absolute w-[40px] h-[18px] bg-black rounded-lg opacity-90 right-[5px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>1:38</p>
+                  </div>
                   <div className='text-[#aaa]'>
                     <h2 className='text-[#eee] text-sm w-[220px] mt-2 font-semibold'>WenDEUS - Sad Boy Love Song - (Rap nº 01)</h2>
                     <p className='text-xs mt-2'>117 visualizações há 2 anos</p>
-                    <p className='absolute w-[35px] h-[18px] bg-black rounded-lg opacity-90 right-[35px] top-[115px] text-[0.8rem] font-medium text-[#eee] text-center'>2:23</p>
                   </div>
                 </div>
               </a>
