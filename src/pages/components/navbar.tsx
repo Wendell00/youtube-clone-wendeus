@@ -57,10 +57,10 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="flex justify-between w-full bg-[#0F0F0F] h-[56px]">
+      <nav className="flex justify-between navbar bg-[#0F0F0F] h-[56px] fixed z-10">
         <div className="ml-6 icons flex w-[155px] items-center relative">
                 <img src="./menu-burguer.png" alt="icon-burguer" className="w-[24px] h-[24px] cursor-pointer mr-4"/>
-                <img src="./yt-logo-dark.png" alt="youtube-logo" className="w-[100px] h-[36px] cursor-pointer"/>
+                <img src="./yt-logo-dark.png" alt="youtube-logo" className="w-[101px] h-[34px] cursor-pointer"/>
                 <p className="absolute top-3 right-[4px] text-[#aaa] text-[10px]">BR</p>
         </div>
           <div className="flex justify-between items-center relative">

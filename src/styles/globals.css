@@ -2,13 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body{
   overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
 }
 
 main{
   width: 100vw;
   height: 100vh;
   background-color: #0F0F0F;
-  overflow: hidden;
+  overflow-y: scroll;
 }
+
+.aside {
+  scrollbar-width: thin; /* Largura da barra de rolagem */
+  scrollbar-color: #606060 #0F0F0F; /* Cor da barra de rolagem e cor de fundo */
+  overflow-y: hidden;
+}
+
+main {
+  scrollbar-width: thin; /* Largura da barra de rolagem */
+  scrollbar-color: #606060 #0F0F0F; /* Cor da barra de rolagem e cor de fundo */
+}
+
+.aside::-webkit-scrollbar, main::-webkit-scrollbar{
+  width: 6px; /* Largura da barra de rolagem */
+}
+
+.aside:hover {
+  overflow-y: auto; /* Mostra a barra de rolagem quando o mouse está sobre o aside */
+}
+
+.aside::-webkit-scrollbar-track, main::-webkit-scrollbar-track {
+  background-color: #0F0F0F; /* Cor de fundo da barra de rolagem */
+}
+
+.aside::-webkit-scrollbar-thumb, main::-webkit-scrollbar-thumb {
+  background-color: #606060; /* Cor da barra de rolagem */
+  border-radius: 16px; /* Adiciona o border-radius */
+}
+
+.main{
+  width: calc(100% - 280px);
+}
+
+.navbar{
+  width: calc(100vw - 6px);
+}
+
+
